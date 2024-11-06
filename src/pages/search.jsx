@@ -26,7 +26,7 @@ const Search = () => {
     try {
       console.log("Searching for certificate ID:", certificateId); // Debugging line
       const response = await axios.get(
-        `http://localhost:5000/api/certificate/student_data/${certificateId}`
+        `${import.meta.env.VITE_API_URL}/certificate/student_data/${certificateId}`
       );
       console.log("API Response:", response.data); // Debugging line
 
