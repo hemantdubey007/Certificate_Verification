@@ -4,7 +4,7 @@ import { resolve } from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/Certificate-Verification-System/",
+  base: "/Certificate_Verification/",
   // base: "/",
   plugins: [react()],
   resolve: {
